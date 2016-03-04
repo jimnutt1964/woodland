@@ -1,0 +1,9 @@
+<h4>Check out previous questions from Woodland Wanderers:</h4>
+
+<ul>
+  {{#each model as |poll| }}
+    <li>{{poll.question}}</li>
+  {{/each}}
+</ul>
+
+{{outlet}}
